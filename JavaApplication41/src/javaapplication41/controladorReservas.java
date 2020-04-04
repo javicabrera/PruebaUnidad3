@@ -5,10 +5,16 @@
  */
 package javaapplication41;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author 56992
  */
 public class controladorReservas {
+    private ArrayList<Reserva> reservas;
     
+    public boolean verificarDisponibilidad(Reserva r){
+        return true;
+    }
 }
