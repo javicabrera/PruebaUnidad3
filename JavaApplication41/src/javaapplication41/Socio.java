@@ -22,8 +22,10 @@ public class Socio {
         this.cuentaRestaurant = cuentaRestaurant;
     }          
     
-    public void pagarMulta(){}
-    public void comprarEnRestaurant(){}
-    public void saldarRestaurant(){}
+    public void pagarMulta(int saldo){}
+    public void comprarEnRestaurant(int compras){}
+    public void saldarRestaurant(){
+        this.cuentaRestaurant=0;
+    }
     
 }
