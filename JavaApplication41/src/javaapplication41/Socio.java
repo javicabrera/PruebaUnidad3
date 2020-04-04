@@ -41,7 +41,7 @@ public class Socio {
     }
 
     public static void setMulta(int multa) {
-        this.multa = multa;
+        Socio.multa = multa;
     }
 
     public int getMembresia() {

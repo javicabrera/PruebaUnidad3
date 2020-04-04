@@ -14,5 +14,21 @@ import java.util.ArrayList;
 public class controladorSocios {
     private ArrayList<Socio> clientes;
     
+    public boolean confirmarIdentidad(){
+        return true;
+    }
+    public void aplicarViolacionCod(int rut){
+        getCliente(rut).setRut(getCliente(rut).getMulta()+20000);
+    }
     
+    public Socio getCliente(int rut){
+        for (int i = 0; i < clientes.size(); i++) {
+            if (clientes.get(i).getRut()==rut)
+                return clientes.get(i);
+        }
+        return null;
+    }
+    public void aplicarDsctoRestaurant(int rut){
+
+    }
 }
