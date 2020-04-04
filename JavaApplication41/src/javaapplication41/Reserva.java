@@ -10,5 +10,12 @@ package javaapplication41;
  * @author 56992
  */
 public class Reserva {
+    private Socio cliente;
+    private Horario horario;
+    private int pista;
+    private int costo;
+    private int id;
+    
+    public void calculoCostoReserva(){}
     
 }
