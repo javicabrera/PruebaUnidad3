@@ -10,9 +10,9 @@ package javaapplication41;
  * @author 56992
  */
 public class Horario {
-    public String inicio;
-    public String fin;
-    public int horas;
+    private String inicio;
+    private String fin;
+    private int horas;
     
     public Horario(String inicio, String fin){
         String[] datosInicio=null;
